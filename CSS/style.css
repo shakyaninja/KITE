@@ -1,0 +1,251 @@
+body {
+  background-image: linear-gradient(#2897ff, black);
+}
+
+#video-back {
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#home {
+  min-height: 80vh;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link:hover {
+  color: #ddd;
+}
+
+.head {
+  margin-top: 200px;
+  color: #fff;
+}
+
+#events {
+  color: #ffffff;
+}
+#events .coding-events h1 {
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+#events .coding-events .info-left {
+  height: 500px;
+  width: 500px;
+  margin: 0px;
+  padding: 40px;
+  color: #ffffff;
+}
+#events .coding-events .info-left h1 {
+  margin: 10px;
+}
+#events .coding-events .info-left h2 {
+  font-size: 24px;
+  margin: 10px;
+}
+#events .coding-events .info-left p {
+  width: 300px;
+  margin: 50px 10px;
+}
+#events .coding-events .banner-right {
+  height: 600px;
+  width: 75%;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30%;
+  z-index: 1;
+}
+#events .coding-events .info-right {
+  height: 500px;
+  width: 500px;
+  margin-left: 70%;
+  padding: 60px 0px 60px 80px;
+  color: #ffffff;
+}
+#events .coding-events .info-right h1 {
+  margin: 10px;
+}
+#events .coding-events .info-right h2 {
+  font-size: 24px;
+  margin: 10px;
+}
+#events .coding-events .info-right p {
+  width: 300px;
+  margin: 50px 10px;
+}
+#events .coding-events .banner-left {
+  height: 600px;
+  width: 75%;
+  position: absolute;
+  margin-top: 50px;
+  margin-right: 30%;
+  z-index: 1;
+}
+#events .coding-events #itquiz {
+  margin-bottom: 200px;
+}
+#events .coding-events #itquiz #quiz-info {
+  background: #4343ee;
+  background: linear-gradient(171deg, #4343ee 0%, #48aec5 63%, #1db7f1 100%);
+}
+#events .coding-events #itquiz #quiz-banner {
+  width: 70%;
+  background: url("../IMG/itquiz.png") no-repeat;
+  background-size: cover;
+}
+#events .coding-events #startup-coding {
+  margin-bottom: 200px;
+}
+#events .coding-events #startup-coding #startup-info {
+  background: #5b79ef;
+  background: linear-gradient(329deg, #5b79ef 0%, #477ed0 42%, #3639c7 100%);
+}
+#events .coding-events #startup-coding #startup-banner {
+  width: 70%;
+  background: url("../IMG/start.jpg") no-repeat;
+  background-size: cover;
+}
+#events .coding-events #design {
+  margin-bottom: 200px;
+}
+#events .coding-events #design #design-info {
+  background: #4bc548;
+  background: linear-gradient(186deg, #4bc548 0%, #8bcf8d 71%, #6adc86 100%);
+}
+#events .coding-events #design #design-banner {
+  background: url("../IMG/des.jpg") no-repeat;
+  background-size: cover;
+}
+#events .coding-events #hackathon {
+  margin-bottom: 200px;
+}
+#events .coding-events #hackathon #hackathon-info {
+  background: #fc0000;
+  background: linear-gradient(18deg, #fc0000 0%, #e73131 42%, #4d0f0f 100%);
+}
+#events .coding-events #hackathon #hackathon-banner {
+  background: url("../IMG/hackathon.png") no-repeat;
+  background-size: contain;
+}
+#events .gaming-events h1 {
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+#events .gaming-events .info-left {
+  height: 500px;
+  width: 500px;
+  margin: 0px;
+  padding: 40px;
+  color: #ffffff;
+}
+#events .gaming-events .info-left h1 {
+  margin: 10px;
+}
+#events .gaming-events .info-left h2 {
+  font-size: 24px;
+  margin: 10px;
+}
+#events .gaming-events .info-left p {
+  width: 300px;
+  margin: 50px 10px;
+}
+#events .gaming-events .banner-right {
+  height: 600px;
+  width: 75%;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30%;
+  z-index: 1;
+}
+#events .gaming-events .info-right {
+  height: 500px;
+  width: 500px;
+  margin-left: 70%;
+  padding: 60px 0px 60px 80px;
+  color: #ffffff;
+}
+#events .gaming-events .info-right h1 {
+  margin: 10px;
+}
+#events .gaming-events .info-right h2 {
+  font-size: 24px;
+  margin: 10px;
+}
+#events .gaming-events .info-right p {
+  width: 300px;
+  margin: 50px 10px;
+}
+#events .gaming-events .banner-left {
+  height: 600px;
+  width: 75%;
+  position: absolute;
+  margin-top: 50px;
+  margin-right: 30%;
+  z-index: 1;
+}
+#events .gaming-events #pubg {
+  margin-bottom: 200px;
+}
+#events .gaming-events #pubg #pubg-info {
+  background: red;
+  background: linear-gradient(324deg, red 8%, #de0092 46%, black 93%);
+}
+#events .gaming-events #pubg #pubg-banner {
+  width: 70%;
+  background: url("../IMG/pubg.jpg") no-repeat;
+  background-size: cover;
+}
+#events .gaming-events #fifa {
+  margin-bottom: 200px;
+}
+#events .gaming-events #fifa #fifa-info {
+  background: #1c039d;
+  background: linear-gradient(300deg, #1c039d 0%, #af3cb9 43%, #dc1818 100%);
+}
+#events .gaming-events #fifa #fifa-banner {
+  background: url("../IMG/fifa.jpg") no-repeat;
+  background-size: contain;
+}
+
+#footer {
+  background: transparent;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+footer h3 {
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer h4 {
+  font-size: 16px;
+}
+
+footer a {
+  font-size: 10px;
+  color: cyan;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #eee;
+}
+
+/*# sourceMappingURL=style.css.map */

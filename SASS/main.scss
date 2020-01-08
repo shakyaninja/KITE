@@ -1,0 +1,242 @@
+body{
+	background-image: linear-gradient(#2897ff, black);
+}
+#video-back {
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#home{
+	min-height: 80vh;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #ddd;
+}
+.head{
+	margin-top: 200px;
+	color: #fff;
+}
+#events{
+	color: #ffffff;
+	.coding-events{
+
+		h1{
+			margin-left: 30px;
+			margin-bottom: 40px ;   
+		}
+		.info-left{
+			height:500px;
+			width: 500px;
+			margin: 0px;
+			padding: 40px;
+			color: #ffffff;
+			h1{
+				margin: 10px;
+			}
+			h2{
+				font-size: 24px;
+				margin: 10px;
+			}
+			p{
+				width: 300px;
+				margin: 50px 10px;
+			}
+		}
+		.banner-right{
+			height:600px;
+			width: 75%;
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 30%; 
+			z-index: 1;
+		}
+		.info-right{
+			height:500px;
+			width: 500px;
+			margin-left: 70%;
+			padding: 60px 0px 60px 80px;
+			color: #ffffff;
+			h1{
+				margin: 10px;
+			}
+			h2{
+				font-size: 24px;
+				margin: 10px;
+			}
+			p{
+				width: 300px;
+				margin: 50px 10px;
+			}
+		}
+		.banner-left{
+			height:600px;
+			width: 75%;
+			position: absolute;
+			margin-top: 50px;
+			margin-right: 30%; 
+			z-index: 1;
+		}
+		#itquiz{
+			margin-bottom: 200px;
+			#quiz-info{ 
+				 background: rgb(67,67,238);
+				background: linear-gradient(171deg, rgba(67,67,238,1) 0%, rgba(72,174,197,1) 63%, rgba(29,183,241,1) 100%); 
+			}
+			#quiz-banner{
+				width: 70%;
+				background: url("../IMG/itquiz.png") no-repeat;
+				background-size:cover;
+				}
+		}
+		#startup-coding{
+			margin-bottom: 200px;
+			#startup-info{ 
+				 background: rgb(91,121,239);
+				background: linear-gradient(329deg, rgba(91,121,239,1) 0%, rgba(71,126,208,1) 42%, rgba(54,57,199,1) 100%); 
+			}
+			#startup-banner{
+				width: 70%;
+				background: url("../IMG/start.jpg") no-repeat;
+				background-size:cover;
+				}
+		}
+		#design{
+			margin-bottom: 200px;
+			#design-info{ 
+				 background: rgb(75,197,72);
+				background: linear-gradient(186deg, rgba(75,197,72,1) 0%, rgba(139,207,141,1) 71%, rgba(106,220,134,1) 100%); 
+			}
+			#design-banner{
+				background: url("../IMG/des.jpg") no-repeat;
+				background-size:cover;
+				}
+		}
+		#hackathon{
+			margin-bottom: 200px;
+			#hackathon-info{ 
+				 background: rgb(252,0,0);
+				background: linear-gradient(18deg, rgba(252,0,0,1) 0%, rgba(231,49,49,1) 42%, rgba(77,15,15,1) 100%); 
+			}
+			#hackathon-banner{
+				background: url("../IMG/hackathon.png") no-repeat;
+				background-size:contain;
+				}
+		}
+	}
+	.gaming-events{
+		h1{
+			margin-left: 30px;
+			margin-bottom: 40px ;   
+		}
+		.info-left{
+			height:500px;
+			width: 500px;
+			margin: 0px;
+			padding: 40px;
+			color: #ffffff;
+			h1{
+				margin: 10px;
+			}
+			h2{
+				font-size: 24px;
+				margin: 10px;
+			}
+			p{
+				width: 300px;
+				margin: 50px 10px;
+			}
+		}
+		.banner-right{
+			height:600px;
+			width: 75%;
+			position: absolute;
+			margin-top: 50px;
+			margin-left: 30%; 
+			z-index: 1;
+		}
+		.info-right{
+			height:500px;
+			width: 500px;
+			margin-left: 70%;
+			padding: 60px 0px 60px 80px;
+			color: #ffffff;
+			h1{
+				margin: 10px;
+			}
+			h2{
+				font-size: 24px;
+				margin: 10px;
+			}
+			p{
+				width: 300px;
+				margin: 50px 10px;
+			}
+		}
+		.banner-left{
+			height:600px;
+			width: 75%;
+			position: absolute;
+			margin-top: 50px;
+			margin-right: 30%; 
+			z-index: 1;
+		}
+		#pubg{
+			margin-bottom: 200px;
+			#pubg-info{ 
+				 background: rgb(255,0,0);
+				background: linear-gradient(324deg, rgba(255,0,0,1) 8%, rgba(222,0,146,1) 46%, rgba(0,0,0,1) 93%); 
+			}
+			#pubg-banner{
+				width: 70%;
+				background: url("../IMG/pubg.jpg") no-repeat;
+				background-size:cover;
+				}
+		}
+		#fifa{
+			margin-bottom: 200px;
+			#fifa-info{ 
+				 background: rgb(28,3,157);
+				background: linear-gradient(300deg, rgba(28,3,157,1) 0%, rgba(175,60,185,1) 43%, rgba(220,24,24,1) 100%); 
+			}
+			#fifa-banner{
+				background: url("../IMG/fifa.jpg") no-repeat ;
+				background-size:contain;
+				}
+		}
+
+	}
+}
+#footer{
+    background: transparent;
+	min-height: 400px;
+	padding-top: 100px;
+}
+footer h3{
+	font-size: 18px;
+}
+footer p{
+	font-size: 12px;
+}
+footer h4{
+	font-size: 16px;
+}
+footer a{
+	font-size: 10px;
+	color: cyan;
+}
+footer a:hover{
+	text-decoration: none;
+	color: #eee;
+}
