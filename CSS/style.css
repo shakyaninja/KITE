@@ -1,5 +1,62 @@
+@media screen and (min-width: 320px) and (max-width: 670px) {
+  body #video-back {
+    visibility: hidden;
+  }
+  body #home {
+    min-height: 100vh;
+    background: url("../IMG/sci.jpg") no-repeat fixed;
+    background-size: cover;
+  }
+  body #home .head {
+    margin: 20px;
+  }
+  body #home .head span {
+    font-size: 20px;
+  }
+  body #events {
+    color: #ffffff;
+    display: none;
+  }
+  body #events-mob {
+    display: block;
+    color: #ffffff;
+  }
+  body #events-mob .card img {
+    width: 100%;
+  }
+  body #events-mob .card a {
+    color: #e3e3e3;
+  }
+  body #events-mob #itquiz-mob {
+    background: #4343ee;
+    background: linear-gradient(171deg, #4343ee 0%, #48aec5 63%, #1db7f1 100%);
+  }
+  body #events-mob #startup-mob {
+    background: #5b79ef;
+    background: linear-gradient(329deg, #5b79ef 0%, #477ed0 42%, #3639c7 100%);
+  }
+  body #events-mob #design-mob {
+    background: #4bc548;
+    background: linear-gradient(186deg, #4bc548 0%, #8bcf8d 71%, #6adc86 100%);
+  }
+  body #events-mob #hackathon-mob {
+    background: #fc0000;
+    background: linear-gradient(18deg, #fc0000 0%, #e73131 42%, #4d0f0f 100%);
+  }
+  body #events-mob #pubg-mob {
+    background: red;
+    background: linear-gradient(324deg, red 8%, #de0092 46%, black 93%);
+  }
+  body #events-mob #fifa-mob {
+    background: #1c039d;
+    background: linear-gradient(300deg, #1c039d 0%, #af3cb9 43%, #dc1818 100%);
+  }
+}
 body {
   background-image: linear-gradient(#2897ff, black);
+}
+body .navbar-brand p {
+  font-size: 12px;
 }
 
 #video-back {
@@ -22,10 +79,6 @@ body {
   color: #fff;
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #fff;
-}
-
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link:hover {
   color: #ddd;
 }
@@ -33,6 +86,13 @@ body {
 .head {
   margin-top: 200px;
   color: #fff;
+}
+.head b {
+  color: #2897ff;
+}
+
+#events-mob {
+  display: none;
 }
 
 #events {

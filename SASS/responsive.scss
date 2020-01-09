@@ -1,0 +1,59 @@
+@media screen and (min-width: 320px) and (max-width: 670px){
+	body{
+		#video-back{
+			visibility: hidden;
+		}
+		#home{
+			min-height: 100vh;
+			background: url("../IMG/sci.jpg") no-repeat fixed;
+			background-size: cover; 
+			.head{
+				margin: 20px;
+				span{
+					font-size: 20px;
+				}
+			}
+		}
+		#events{
+			color: #ffffff;
+			display: none;
+		}
+		#events-mob{
+			display: block;
+			color: #ffffff;
+			.card{
+				img{
+					width: 100%;
+				}
+				a{
+					color: #e3e3e3;
+				}
+			}
+			#itquiz-mob{
+				 background: rgb(67,67,238);
+				background: linear-gradient(171deg, rgba(67,67,238,1) 0%, rgba(72,174,197,1) 63%, rgba(29,183,241,1) 100%); 
+			}
+			#startup-mob{
+				 background: rgb(91,121,239);
+				background: linear-gradient(329deg, rgba(91,121,239,1) 0%, rgba(71,126,208,1) 42%, rgba(54,57,199,1) 100%); 
+			}
+			#design-mob{
+				 background: rgb(75,197,72);
+				background: linear-gradient(186deg, rgba(75,197,72,1) 0%, rgba(139,207,141,1) 71%, rgba(106,220,134,1) 100%); 
+			}
+			#hackathon-mob{
+				 background: rgb(252,0,0);
+				background: linear-gradient(18deg, rgba(252,0,0,1) 0%, rgba(231,49,49,1) 42%, rgba(77,15,15,1) 100%); 
+			}
+			#pubg-mob{
+				  background: rgb(255,0,0);
+				 background: linear-gradient(324deg, rgba(255,0,0,1) 8%, rgba(222,0,146,1) 46%, rgba(0,0,0,1) 93%); 
+			}
+			#fifa-mob{
+				background: rgb(28,3,157);
+				background: linear-gradient(300deg, rgba(28,3,157,1) 0%, rgba(175,60,185,1) 43%, rgba(220,24,24,1) 100%);  
+			}
+		}
+
+	}
+}
